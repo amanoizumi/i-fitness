@@ -11,8 +11,8 @@ git checkout -B main
 git add -A
 git commit -m 'deploy'
 
-
-git push -f git@github.com:amanoizumi/i-fitness.git main:gh-pages
+# https 佈署
+git push -f https://github.com/amanoizumi/i-fitness.git main:gh-pages
 
 
 cd -
